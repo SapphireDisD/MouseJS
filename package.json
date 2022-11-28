@@ -1,0 +1,16 @@
+{
+  "name": "mousejs",
+  "version": "0.0.1",
+  "description": "Mouse interaction addon for Electron 21.3.1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp --target=21.3.1 --dist-url=https://electronjs.org/headers configure && node-gyp build"
+  },
+  "author": "Sapphire",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "node-gyp": "^9.3.0"
+  }
+}
